@@ -96,12 +96,10 @@ All final numbers are produced by running the notebook end-to-end on the full da
 | Model | Test R² | Test MAE |
 |---|---|---|
 | Linear Regression | ~0.79 | ~$3,500 |
-| Random Forest (Baseline) | ~0.92 | ~$2,000 |
-| Gradient Boosting (Baseline) | ~0.88 | ~$2,300 |
-| XGBoost (Baseline) | ~0.90 | ~$2,100 |
-| Random Forest (Optuna) | ↑ best RF | ↓ best RF |
-| Gradient Boosting (Optuna) | ↑ best GB | ↓ best GB |
-| XGBoost (Optuna) | ↑ best XGB | ↓ best XGB |
+| Random Forest | ~0.92 | ~$2,000 |
+| Gradient Boosting | ~0.88 | ~$2,300 |
+| XGBoost | ~0.90 | ~$2,100 |
+
 
 Optuna-tuned models consistently outperform their hand-configured counterparts by discovering non-obvious hyperparameter interactions — particularly XGBoost's regularisation coefficients (`reg_alpha`, `reg_lambda`).
 

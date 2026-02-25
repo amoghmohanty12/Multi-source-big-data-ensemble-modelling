@@ -96,7 +96,7 @@ All final numbers are produced by running the notebook end-to-end on the full da
 | Model | Test R² | Test MAE |
 |---|---|---|
 | Linear Regression | ~0.79 | ~$3,500 |
-| Random Forest | ~0.92 | ~$2,000 |
+| Random Forest push | ~0.92 | ~$2,000 |
 | Gradient Boosting | ~0.88 | ~$2,300 |
 | XGBoost | ~0.90 | ~$2,100 |
 
